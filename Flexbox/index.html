@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+</head>
+<body>
+<style>
+    .contaner-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contaner-1 div{
+        border: black solid;
+        padding: 10px;
+    }
+    .box-1{
+        flex: 1;
+        order: 2;
+    }
+    .box-2{
+        flex: 1;
+        order: 1;
+    }
+    .box-3{
+        flex: 1;
+        order: 3;
+    }
+</style>
+
+
+<div class="contaner-1">
+    <div class="box-1">
+        <h1>Box One</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quasi laboriosam molestias ullam voluptatum quibusdam dicta eveniet deleniti officiis repudiandae delectus, itaque veritatis aspernatur nesciunt cupiditate tempora quisquam necessitatibus? Voluptas.</p>
+    </div>
+    <div class="box-2">
+        <h1>Box Tow</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quasi laboriosam molestias ullam voluptatum quibusdam dicta eveniet deleniti officiis repudiandae delectus, itaque veritatis aspernatur nesciunt cupiditate tempora quisquam necessitatibus? Voluptas.</p>
+    </div>
+    <div class="box-3">
+        <h1>Box Three</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quasi laboriosam molestias ullam voluptatum quibusdam dicta eveniet deleniti officiis repudiandae delectus, itaque veritatis aspernatur nesciunt cupiditate tempora quisquam necessitatibus? Voluptas.</p>
+    </div>
+</div>    
+</body>
+</html>
